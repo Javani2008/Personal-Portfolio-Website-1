@@ -1,0 +1,46 @@
+* {
+    color: #c14d00;
+    font-family: sans-serif;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    background-color: black;
+    border-bottom: #c14d00;
+    margin-left: 90px;
+    margin-right: 90px;
+
+
+}
+.title{
+    padding: 0%;
+    margin: 0%;
+}
+.title:hover {
+    transform: scale(1.1);
+}
+
+.links {
+    margin: 2px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.links>a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    margin-right: 10px;
+    color: white;
+
+
+}
+
+.links a:hover,
+.links a.active {
+    color: #c14d00;
+    border-bottom: 3px solid #c14d00;
+    transition: all linear 200ms;
+}
